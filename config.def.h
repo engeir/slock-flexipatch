@@ -33,21 +33,31 @@ static const char * font_name = "6x10";
 
 #if DWM_LOGO_PATCH
 /* insert grid pattern with scale 1:1, the size can be changed with logosize */
-static const int logosize = 75;
+static const int logosize = 70;
 static const int logow = 12;   /* grid width and height for right center alignment*/
-static const int logoh = 6;
+static const int logoh = 7;
 
 static XRectangle rectangles[] = {
    /* x    y   w   h */
-   { 0,    3,  1,  3 },
-   { 1,    3,  2,  1 },
-   { 0,    5,  8,  1 },
-   { 3,    0,  1,  5 },
-   { 5,    3,  1,  2 },
-   { 7,    3,  1,  2 },
-   { 8,    3,  4,  1 },
-   { 9,    4,  1,  2 },
-   { 11,   4,  1,  2 },
+   { 0,    1,  3,  1 },
+   { 0,    3,  3,  1 },
+   { 0,    5,  3,  1 },
+   { 1,   -1,  3,  1 },
+   { 1,    7,  3,  1 },
+   { 4,    5,  2,  1 },
+   { 5,    1,  1,  3 },
+   { 5,    6,  1,  1 },
+   { 5,    7,  3,  1 },
+   { 6,    1,  1,  1 },
+   { 6,   -2,  1,  2 },
+   { 7,   -3,  1,  1 },
+   { 7,    0,  1,  8 },
+   { 8,   -2,  1,  2 },
+   { 8,    1,  2,  1 },
+   { 8,    6,  3,  1 },
+   { 10,  -1,  1,  2 },
+   { 10,   6,  1,  4 },
+   { 11,   9,  1,  1 },
 };
 #endif // DWM_LOGO_PATCH
 
